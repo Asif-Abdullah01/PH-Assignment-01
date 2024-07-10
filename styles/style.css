@@ -180,6 +180,8 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin: 0 50px;
+    margin-bottom: 45px;
 }
 
 .why-dev-image {
@@ -250,6 +252,26 @@
     margin: 0 auto;
 }
 
+.my-inspiration-section {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.my-current-target-section{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.my-current-target-section  .mi-first-sec p{
+
+    padding-bottom: 40px;
+}
+
+
+
 
 .mi-second-sec {
     width: 1140px;
@@ -265,4 +287,75 @@
     display: flex;
     border-radius: 16px;
     align-items: center;
+}
+
+.skills{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skills h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skills p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.skills a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.skill1{
+    width: 365px;
+    height: 270px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill2{
+    width: 365px;
+    height: 270px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill3{
+    width: 365px;
+    height: 270px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+.my-current-target-section{
+    margin-bottom: 160px;
 }
